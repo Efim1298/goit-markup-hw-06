@@ -219,8 +219,8 @@
         </div>
 
         <div class="footer-socials-container">
-          <h3 class="footer-socials-header">Social media</h3>
-          <ul class="socials-team-list list">
+          <h3 class="footer-header">Social media</h3>
+          <ul class="socials-team-list socials-footer-list list">
             <li class="socials-team-item">
               <a class="socials-team-link socials-footer-link" href="">
                 <svg class="socials-team-icon socials-footer-icon" width="24px" height="24px">
@@ -250,6 +250,27 @@
               </a>
             </li>
           </ul>
+        </div>
+        <!-- Subscribe form -->
+        <div class="form-subscribe">
+          <h2 class="footer-header">Subscribe</h2>
+          <form class="form-subscribe-email" name="form-subscribe-email" autocomplete="off">
+            <input
+              class="form-subscribe-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              required
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}"
+              title="google@gmail.com"
+            />
+            <button class="form-subscribe-button" type="submit">
+              Subscribe
+              <svg class="form-subscribe-icon" width="24px" height="24px">
+                <use href="./images/sprite.svg#icon-plane"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
